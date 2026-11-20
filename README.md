@@ -6,7 +6,7 @@ Home-Assistant-Theme mit zwei Modi:
 - **Dunkel („Schiefer“):** dunkles Blaugrau, gedämpfte Schrift, blaugraue Rahmen, Schatten mit feiner heller Oberkante.
 - **Symbole:** Farbgruppen, inaktiv pastellig, aktiv kräftig.
 
-Aufbau angelehnt an Graphite E-ink von Tilman Griesel.
+Abgeleitet vom [Graphite Theme](https://github.com/TilmanGriesel/graphite) von Tilman Griesel (MIT). Herkunft und Änderungen: [`NOTICE.md`](NOTICE.md).
 
 ## Farbnamen für Kacheln (`color:`)
 
@@ -23,3 +23,22 @@ Aufbau angelehnt an Graphite E-ink von Tilman Griesel.
 ## Installation
 
 Marketplace (HACS) → benutzerdefiniertes Repository, Kategorie „Theme“. Voraussetzung in `configuration.yaml`: `frontend: themes: !include_dir_merge_named themes`.
+
+## Auswahl
+
+- **Für alle:** Einstellungen → Profil → Theme bzw. als Standard über `frontend.set_theme` (`name: HW18 Papier`, `mode: light` und `mode: dark`).
+- Hell oder dunkel folgt der Einstellung des Geräts (oder bei Tablets mit browser_mod einer Automation).
+
+## Hinweise
+
+- Die Papiertextur liegt nur auf dem Seitenhintergrund (`lovelace-background`), nicht auf den Karten.
+- Ein Theme unterscheidet nicht zwischen Buttons und Anzeigen. Alle Karten bekommen denselben leichten Schatten.
+- Ungenutzte Farbnamen (`lime`, `brown`, `indigo`, `blue-grey`, `light-blue`, `light-green`, `cyan`) sind auf Pastelltöne umgelegt. Wer diese Namen anderswo für kräftige Farben nutzt, sieht dort Pastell.
+
+## Lizenz
+
+MIT, siehe [`LICENSE`](LICENSE). Enthält den Copyright-Hinweis von Graphite (© 2022 Tilman Griesel).
+
+## Änderungen
+
+Siehe [`CHANGELOG.md`](CHANGELOG.md).

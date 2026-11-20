@@ -1,5 +1,6 @@
 # Theme „HW18 Papier“ (hell: E-Paper auf warmem Papier mit Textur; dunkel: Schiefer)
 # Aufbau nach Graphite E-ink (2 px Rahmen, Radius 8, flach), Farben nur in den Symbolen.
+# Abgeleitet von Graphite Theme 2.7.6 (c) 2022 Tilman Griesel, MIT-Lizenz. Siehe LICENSE und NOTICE.md.
 # Pastellfarben für feste Kachelfarben liegen auf den HA-Farbnamen:
 #   light-green=Salbei, lime=Bernstein, brown=Terrakotta, indigo=Lavendel, blue-grey=Rosé, light-blue=Blau, cyan=Petrol
 # Kräftige Farben (aktiv): amber, orange, green, purple, blue, pink, teal, red.
