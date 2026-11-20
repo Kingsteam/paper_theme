@@ -1,0 +1,219 @@
+# Theme „HW18 Papier“ (hell: E-Paper auf warmem Papier mit Textur; dunkel: Schiefer)
+# Aufbau nach Graphite E-ink (2 px Rahmen, Radius 8, flach), Farben nur in den Symbolen.
+# Pastellfarben für feste Kachelfarben liegen auf den HA-Farbnamen:
+#   light-green=Salbei, lime=Bernstein, brown=Terrakotta, indigo=Lavendel, blue-grey=Rosé, light-blue=Blau, cyan=Petrol
+# Kräftige Farben (aktiv): amber, orange, green, purple, blue, pink, teal, red.
+HW18 Papier:
+  modes:
+    light:
+      primary-background-color: '#FFFCF6'
+      secondary-background-color: '#F5F0E7'
+      lovelace-background: 'url("data:image/svg+xml;utf8,<svg xmlns=''http://www.w3.org/2000/svg'' width=''600'' height=''600''><filter id=''n''><feTurbulence type=''fractalNoise'' baseFrequency=''0.012'' numOctaves=''4'' stitchTiles=''stitch''/><feColorMatrix values=''0 0 0 0 0.35  0 0 0 0 0.28  0 0 0 0 0.2  0 0 0 0.1 0''/></filter><rect width=''100%'' height=''100%'' filter=''url(%23n)''/></svg>"), url("data:image/svg+xml;utf8,<svg xmlns=''http://www.w3.org/2000/svg'' width=''240'' height=''240''><filter id=''n''><feTurbulence type=''fractalNoise'' baseFrequency=''0.9'' numOctaves=''3'' stitchTiles=''stitch''/><feColorMatrix values=''0 0 0 0 0.35  0 0 0 0 0.28  0 0 0 0 0.2  0 0 0 0.34 0''/></filter><rect width=''100%'' height=''100%'' filter=''url(%23n)''/></svg>"), #FFFCF6'
+      card-background-color: '#FFFFFD'
+      ha-card-background: '#FFFFFD'
+      ha-card-border-color: '#CFC5B4'
+      ha-card-border-width: 2px
+      ha-card-border-radius: 8px
+      ha-card-box-shadow: 0 1px 2px rgba(70,52,32,0.14), 0 3px 8px rgba(70,52,32,0.07)
+      divider-color: '#E3DACB'
+      primary-text-color: '#2E2A25'
+      secondary-text-color: '#665E54'
+      disabled-text-color: '#A39A8D'
+      text-primary-color: '#FFFFFF'
+      primary-color: '#2E2A25'
+      accent-color: '#E3A23A'
+      rgb-primary-color: 46, 42, 37
+      rgb-accent-color: 227, 162, 58
+      mdc-theme-primary: '#2E2A25'
+      app-header-background-color: '#FFFCF6'
+      app-header-text-color: '#2E2A25'
+      app-header-selection-bar-color: '#2E2A25'
+      app-header-edit-background-color: '#FFFFFD'
+      app-header-edit-text-color: '#2E2A25'
+      sidebar-background-color: '#F5F0E7'
+      sidebar-text-color: '#665E54'
+      sidebar-icon-color: '#665E54'
+      sidebar-selected-text-color: '#2E2A25'
+      sidebar-selected-icon-color: '#2E2A25'
+      state-icon-color: '#665E54'
+      state-inactive-color: '#8C8376'
+      state-active-color: '#E3A23A'
+      state-light-active-color: '#E3A23A'
+      state-light-inactive-color: '#8A6420'
+      state-switch-active-color: '#2E9A88'
+      state-switch-inactive-color: '#3F6E66'
+      state-input_boolean-active-color: '#E3A23A'
+      state-input_boolean-inactive-color: '#8A6420'
+      state-script-active-color: '#7B5CC9'
+      state-script-inactive-color: '#62548A'
+      state-lock-locked-color: '#4E9A3E'
+      state-lock-unlocked-color: '#D9693F'
+      state-lock-jammed-color: '#C8463C'
+      state-lock-open-color: '#D9693F'
+      state-lock-opening-color: '#E3A23A'
+      state-lock-locking-color: '#E3A23A'
+      state-binary_sensor-active-color: '#E3A23A'
+      state-binary_sensor-inactive-color: '#456A85'
+      state-climate-heat-color: '#D9693F'
+      state-climate-cool-color: '#3A86C4'
+      state-climate-auto-color: '#4E9A3E'
+      state-climate-off-color: '#93543C'
+      state-alarm_control_panel-disarmed-color: '#3F6E66'
+      state-alarm_control_panel-armed_away-color: '#2E9A88'
+      state-alarm_control_panel-armed_home-color: '#2E9A88'
+      state-alarm_control_panel-armed_night-color: '#2E9A88'
+      state-alarm_control_panel-triggered-color: '#C8463C'
+      error-color: '#C8463C'
+      warning-color: '#E3A23A'
+      success-color: '#4E9A3E'
+      info-color: '#3A86C4'
+      switch-checked-color: '#2E9A88'
+      switch-checked-button-color: '#2E9A88'
+      switch-checked-track-color: '#2E9A88'
+      input-fill-color: '#F5F0E7'
+      mdc-text-field-fill-color: '#F5F0E7'
+      ha-dialog-surface-background: '#FFFFFD'
+      mdc-theme-surface: '#FFFFFD'
+      markdown-code-background-color: '#F5F0E7'
+      rgb-amber-color: 227, 162, 58
+      amber-color: rgb(227, 162, 58)
+      rgb-yellow-color: 227, 162, 58
+      yellow-color: rgb(227, 162, 58)
+      rgb-orange-color: 217, 105, 63
+      orange-color: rgb(217, 105, 63)
+      rgb-deep-orange-color: 217, 105, 63
+      deep-orange-color: rgb(217, 105, 63)
+      rgb-green-color: 78, 154, 62
+      green-color: rgb(78, 154, 62)
+      rgb-purple-color: 123, 92, 201
+      purple-color: rgb(123, 92, 201)
+      rgb-deep-purple-color: 123, 92, 201
+      deep-purple-color: rgb(123, 92, 201)
+      rgb-blue-color: 58, 134, 196
+      blue-color: rgb(58, 134, 196)
+      rgb-pink-color: 206, 85, 125
+      pink-color: rgb(206, 85, 125)
+      rgb-teal-color: 46, 154, 136
+      teal-color: rgb(46, 154, 136)
+      rgb-red-color: 200, 70, 60
+      red-color: rgb(200, 70, 60)
+      light-green-color: '#4F6E45'
+      rgb-light-green-color: 79, 110, 69
+      lime-color: '#8A6420'
+      rgb-lime-color: 138, 100, 32
+      brown-color: '#93543C'
+      rgb-brown-color: 147, 84, 60
+      indigo-color: '#62548A'
+      rgb-indigo-color: 98, 84, 138
+      blue-grey-color: '#8A4E63'
+      rgb-blue-grey-color: 138, 78, 99
+      light-blue-color: '#456A85'
+      rgb-light-blue-color: 69, 106, 133
+      cyan-color: '#3F6E66'
+      rgb-cyan-color: 63, 110, 102
+    dark:
+      primary-background-color: '#15171A'
+      secondary-background-color: '#1A1D21'
+      lovelace-background: '#15171A'
+      card-background-color: '#1E2125'
+      ha-card-background: '#1E2125'
+      ha-card-border-color: '#36414C'
+      ha-card-border-width: 2px
+      ha-card-border-radius: 8px
+      ha-card-box-shadow: 0 2px 3px rgba(0,0,0,0.45), 0 6px 14px rgba(0,0,0,0.30), inset 0 1px 0 rgba(255,255,255,0.05)
+      divider-color: '#2A323A'
+      primary-text-color: '#D6D9DC'
+      secondary-text-color: '#949BA3'
+      disabled-text-color: '#5E656D'
+      text-primary-color: '#15171A'
+      primary-color: '#D6D9DC'
+      accent-color: '#F0B24A'
+      rgb-primary-color: 214, 217, 220
+      rgb-accent-color: 240, 178, 74
+      mdc-theme-primary: '#D6D9DC'
+      app-header-background-color: '#15171A'
+      app-header-text-color: '#D6D9DC'
+      app-header-selection-bar-color: '#D6D9DC'
+      app-header-edit-background-color: '#1E2125'
+      app-header-edit-text-color: '#D6D9DC'
+      sidebar-background-color: '#1A1D21'
+      sidebar-text-color: '#949BA3'
+      sidebar-icon-color: '#949BA3'
+      sidebar-selected-text-color: '#D6D9DC'
+      sidebar-selected-icon-color: '#D6D9DC'
+      state-icon-color: '#949BA3'
+      state-inactive-color: '#7A828A'
+      state-active-color: '#F0B24A'
+      state-light-active-color: '#F0B24A'
+      state-light-inactive-color: '#E6C68C'
+      state-switch-active-color: '#3FC2AB'
+      state-switch-inactive-color: '#A2D3C9'
+      state-input_boolean-active-color: '#F0B24A'
+      state-input_boolean-inactive-color: '#E6C68C'
+      state-script-active-color: '#9C7EF0'
+      state-script-inactive-color: '#C9BDEA'
+      state-lock-locked-color: '#6CC257'
+      state-lock-unlocked-color: '#F07A4E'
+      state-lock-jammed-color: '#EE6655'
+      state-lock-open-color: '#F07A4E'
+      state-lock-opening-color: '#F0B24A'
+      state-lock-locking-color: '#F0B24A'
+      state-binary_sensor-active-color: '#F0B24A'
+      state-binary_sensor-inactive-color: '#A9C6DE'
+      state-climate-heat-color: '#F07A4E'
+      state-climate-cool-color: '#58A6E8'
+      state-climate-auto-color: '#6CC257'
+      state-climate-off-color: '#E7B39D'
+      state-alarm_control_panel-disarmed-color: '#A2D3C9'
+      state-alarm_control_panel-armed_away-color: '#3FC2AB'
+      state-alarm_control_panel-armed_home-color: '#3FC2AB'
+      state-alarm_control_panel-armed_night-color: '#3FC2AB'
+      state-alarm_control_panel-triggered-color: '#EE6655'
+      error-color: '#EE6655'
+      warning-color: '#F0B24A'
+      success-color: '#6CC257'
+      info-color: '#58A6E8'
+      switch-checked-color: '#3FC2AB'
+      switch-checked-button-color: '#3FC2AB'
+      switch-checked-track-color: '#3FC2AB'
+      input-fill-color: '#1A1D21'
+      mdc-text-field-fill-color: '#1A1D21'
+      ha-dialog-surface-background: '#1E2125'
+      mdc-theme-surface: '#1E2125'
+      markdown-code-background-color: '#1A1D21'
+      rgb-amber-color: 240, 178, 74
+      amber-color: rgb(240, 178, 74)
+      rgb-yellow-color: 240, 178, 74
+      yellow-color: rgb(240, 178, 74)
+      rgb-orange-color: 240, 122, 78
+      orange-color: rgb(240, 122, 78)
+      rgb-deep-orange-color: 240, 122, 78
+      deep-orange-color: rgb(240, 122, 78)
+      rgb-green-color: 108, 194, 87
+      green-color: rgb(108, 194, 87)
+      rgb-purple-color: 156, 126, 240
+      purple-color: rgb(156, 126, 240)
+      rgb-deep-purple-color: 156, 126, 240
+      deep-purple-color: rgb(156, 126, 240)
+      rgb-blue-color: 88, 166, 232
+      blue-color: rgb(88, 166, 232)
+      rgb-pink-color: 238, 110, 152
+      pink-color: rgb(238, 110, 152)
+      rgb-teal-color: 63, 194, 171
+      teal-color: rgb(63, 194, 171)
+      rgb-red-color: 238, 102, 85
+      red-color: rgb(238, 102, 85)
+      light-green-color: '#B5D0A6'
+      rgb-light-green-color: 181, 208, 166
+      lime-color: '#E6C68C'
+      rgb-lime-color: 230, 198, 140
+      brown-color: '#E7B39D'
+      rgb-brown-color: 231, 179, 157
+      indigo-color: '#C9BDEA'
+      rgb-indigo-color: 201, 189, 234
+      blue-grey-color: '#E6B3C3'
+      rgb-blue-grey-color: 230, 179, 195
+      light-blue-color: '#A9C6DE'
+      rgb-light-blue-color: 169, 198, 222
+      cyan-color: '#A2D3C9'
+      rgb-cyan-color: 162, 211, 201
